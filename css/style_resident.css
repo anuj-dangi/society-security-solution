@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6ab04c, #badc58);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 0;
+}
+
+.dashboard-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f7f9f7;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-btn {
+    padding: 8px 15px;
+    background: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: #c0392b;
+}
+
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #6ab04c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #6ab04c;
+    color: white;
+}
+
+tr:hover {
+    background: #f1f9f1;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn.approve {
+    background: #27ae60;
+    color: white;
+}
+
+.btn.approve:hover {
+    background: #1e8449;
+}
+
+.btn.deny {
+    background: #e74c3c;
+    color: white;
+}
+
+.btn.deny:hover {
+    background: #c0392b;
+}
+
+.btn.submit {
+    background-color: #6ab04c;
+    color: white;
+}
+
+.btn.submit:hover {
+    background-color: #58b04a;
+}
+
+.add-form form {
+    background: #f0f9f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+}
+
+.add-form label {
+    font-weight: bold;
+}
+
+.add-form input[type="text"],
+.add-form select,
+.add-form textarea {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.success-msg {
+    color: #27ae60;
+    font-weight: bold;
+}
