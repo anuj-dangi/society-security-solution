@@ -1,13 +1,11 @@
 <?php
-session_start(); // Start the session to access session variables
+session_start();
 
-// Unset specific session variables (optional)
 unset($_SESSION['resident_id']);
 unset($_SESSION['username']);
 
-session_destroy(); // Destroy all session data
+session_destroy(); 
 
-// Redirect to the login page
-header("Location: login.php");
-exit(); // Terminate script execution after redirection
+header("Location: index.php");
+exit(); 
 ?>
