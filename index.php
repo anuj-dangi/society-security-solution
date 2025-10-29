@@ -74,6 +74,7 @@ if (isset($_POST['submit']))
 <head>
 <title>LOGIN</title>
 <link rel="stylesheet" type="text/css" href="./css/style_login.css">
+<link rel="icon" type="image/x-icon" href="./icon.ico">
 </head>
 <body>
 <form action="index.php" method="post">
