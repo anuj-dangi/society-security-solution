@@ -19,6 +19,6 @@ A web-based application for managing residents, staff, and visitors in a housing
 ## Setup
 
 1.  Clone the repository.
-2.  Import the `society.sql` file into your MySQL database.
+2.  Import the `society_security.sql` file into your MySQL database.
 3.  Update the database credentials in `utils/db_conn.php`.
 4.  Run the application on a local server.
